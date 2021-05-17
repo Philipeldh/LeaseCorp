@@ -13,8 +13,8 @@ var pgp = require('pg-promise')();
 var url = require('url');
 
 var sqlConn = pgp ({
-    user:'ag4059',
-    password:'jw2nls0e',
+    user:'',
+    password:'',
     database:'leasing',
     host:'pgserver.mah.se',
     client_enconding: 'UTF8'
